@@ -1,4 +1,4 @@
-# BioinformaticsConsultingProject2024
+# Bioinformatics Consulting Project 2024
 This repository contains the scripts and raw files used to produce the data generated for the PRRSV2 2024 Bioinformatics Consulting Project.
 
 The code in this project was run using one of the following environments:
