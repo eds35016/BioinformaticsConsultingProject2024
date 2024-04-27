@@ -1,0 +1,16 @@
+igzip command line interface 2.31.0
+	/scratch/bioconsult/Ethan_James/BINF_Consulting_2024/tools/STAR-2.7.11b/bin/Linux_x86_64_static/STAR --quantMode GeneCounts --genomeDir /scratch/bioconsult/Ethan_James/BINF_Consulting_2024/ongoing/mapping/STAR_idx/PRRSV2/pig_only --readFilesIn /scratch/bioconsult/Ethan_James/BINF_Consulting_2024/ongoing/mapping/PRRSV2/PRRSV2/trimmed_data/cDC_Mock_4/cDC_Mock_4_CKDL210021614-1a-AK4243-AK1681_HMH2WDSX2_L4_1_val_1.fq /scratch/bioconsult/Ethan_James/BINF_Consulting_2024/ongoing/mapping/PRRSV2/PRRSV2/trimmed_data/cDC_Mock_4/cDC_Mock_4_CKDL210021614-1a-AK4243-AK1681_HMH2WDSX2_L4_2_val_2.fq --runThreadN 4 --outFileNamePrefix /scratch/bioconsult/Ethan_James/BINF_Consulting_2024/ongoing/mapping/PRRSV2/PRRSV2/trimmed_data/cDC_Mock_4/cDC_Mock_4/cDC_Mock_4_clip30
+	STAR version: 2.7.11b   compiled: 2024-01-25T16:12:02-05:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Apr 03 01:46:09 ..... started STAR run
+Apr 03 01:46:09 ..... loading genome
+Apr 03 01:48:20 ..... started mapping
+Apr 03 02:15:32 ..... finished mapping
+Apr 03 02:15:33 ..... finished successfully
+	/scratch/bioconsult/Ethan_James/BINF_Consulting_2024/tools/STAR-2.7.11b/bin/Linux_x86_64_static/STAR --quantMode GeneCounts --genomeDir /scratch/bioconsult/Ethan_James/BINF_Consulting_2024/ongoing/mapping/STAR_idx/PRRSV2/pig_only --readFilesIn /scratch/bioconsult/Ethan_James/BINF_Consulting_2024/ongoing/mapping/PRRSV2/PRRSV2/trimmed_data/cDC_Mock_4/cDC_Mock_4_CKDL210021614-1a-AK4243-AK1681_HMH2WDSX2_L4_1_val_1.fq /scratch/bioconsult/Ethan_James/BINF_Consulting_2024/ongoing/mapping/PRRSV2/PRRSV2/trimmed_data/cDC_Mock_4/cDC_Mock_4_CKDL210021614-1a-AK4243-AK1681_HMH2WDSX2_L4_2_val_2.fq --runThreadN 4 --peOverlapNbasesMin 10 --outFileNamePrefix /scratch/bioconsult/Ethan_James/BINF_Consulting_2024/ongoing/mapping/PRRSV2/PRRSV2/trimmed_data/cDC_Mock_4/cDC_Mock_4_peOverlap/cDC_Mock_4_peOverlap_
+	STAR version: 2.7.11b   compiled: 2024-01-25T16:12:02-05:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Apr 03 02:15:34 ..... started STAR run
+Apr 03 02:15:34 ..... loading genome
+Apr 03 02:16:05 ..... started mapping
+Apr 03 02:59:32 ..... finished mapping
+Apr 03 02:59:33 ..... finished successfully
+Wed 03 Apr 2024 02:59:34 AM EDT
