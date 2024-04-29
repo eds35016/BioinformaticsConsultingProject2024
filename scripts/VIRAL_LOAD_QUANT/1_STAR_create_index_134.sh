@@ -17,6 +17,6 @@
         idxdir="/scratch/bioconsult/Ethan_James/BINF_Consulting_2024/ongoing/mapping/STAR_idx/PRRSV2/pig_PRRSV2_134"
 
         $star --runThreadN 8 --runMode genomeGenerate --genomeDir $idxdir \
-                --genomeFastaFiles $refseqdir/GCF_000003025.6_Sscrofa11.1_genomic.fna $viralseqdir/GCF_002816115.1_ASM281611v1_genomic.fna \
+                --genomeFastaFiles $refseqdir/GCF_000003025.6_Sscrofa11.1_genomic.fna $viralseqdir/NC134_genome.fasta \
                 --sjdbGTFfile $viralseqdir/combined_pig_NC134.gtf \
                 --sjdbOverhang 149
