@@ -14,7 +14,7 @@ heatmap_data = data.pivot_table(index='Gene', columns='Sample', values='TPM', ag
 adjusted_heatmap_data = np.log1p(heatmap_data)
 
 # Define the custom order for genes
-gene_order = ["D1P17_gp1", "D1P17_gp2", "D1P17_gp3", "D1P17_gp4", "D1P17_gp5", "D1P17_gp6", "D1P17_gp7", "D1P17_gp8", "D1P17_gp9"]
+gene_order = ["ON844087.7", "ON844087.9", "ON844087.11", "ON844087.13", "ON844087.15", "ON844087.17", "ON844087.19", "ON844087.21", "ON844087.23"]
 
 # Reorder the heatmap data according to the specified gene order
 ordered_heatmap_data = adjusted_heatmap_data.reindex(gene_order)
