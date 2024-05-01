@@ -70,7 +70,7 @@ for (i in 1:nrow(filtered_metadata)) {
   sample_name <- filtered_metadata$Sample[i]
 
   combined_gtf_file <- "combined_pig_NC134.gtf"
-  viral_gtf_file <- "genomic.gtf"
+  viral_gtf_file <- "NC134_annot.gtf"
 
   gtf_path <- sprintf("%s/raw_data/ref_genomes/PRRSV2/NC134/%s", base_dir, combined_gtf_file)
   viral_gtf_path <- sprintf("%s/raw_data/ref_genomes/PRRSV2/NC134/%s", base_dir, viral_gtf_file)
